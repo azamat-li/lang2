@@ -20,6 +20,7 @@ mix
     .js(`resources/js/app.js`, 'public/js')
 //    .sass('resources/sass/vanilla.scss', 'public/css')
     .sass('resources/sass/tailwind.scss', 'public/css')
+//    .sass('resources/sass/app.css', 'public/css')
     .tailwind();
 
 
