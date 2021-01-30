@@ -23,6 +23,12 @@ Route::get('/', function () {
 
 Route::get('/posts', [PostsController::class, 'main'])->name('posts.main');
 
+Route::post('/gists', function () {
+
+App\Models\Gist::create(request(['title', 'description', 'body', 'slug']));
+}
+);
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');

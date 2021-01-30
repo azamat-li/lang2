@@ -146,12 +146,12 @@
         <h1
           class="my-4 text-2xl md:text-3xl lg:text-5xl font-black leading-tight"
         >
-          Main Hero Message to sell yourself!
+		Another language learning portal
         </h1>
         <p
           class="leading-normal text-gray-800 text-base md:text-xl lg:text-2xl mb-8"
         >
-          Sub-hero message, not too long and not too short. Make it just right!
+		Learn Arabic, Turkish 
         </p>
 
         <button
