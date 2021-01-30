@@ -18,13 +18,17 @@ use App\Http\Controllers\PostsController ;
 */
 
 Route::get('/', function () {
-    return view('main');
+    return view('index');
 });
 
 Route::get('/posts', [PostsController::class, 'main'])->name('posts.main');
 
+Route::get('/gists', function () {
+$gists = App\Models\Gist::all();
+	return view('gists.index', compact('gists'));
+}
+);
 Route::post('/gists', function () {
-
 App\Models\Gist::create(request(['title', 'description', 'body', 'slug']));
 }
 );
