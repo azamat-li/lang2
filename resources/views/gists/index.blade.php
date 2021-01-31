@@ -38,6 +38,12 @@
                 </a>
             </div>
 
+            <div class="pl-4 md:pl-0">
+                <a class="flex items-center text-yellow-600 text-base xl:text-xl no-underline hover:no-underline font-extrabold font-sans" href="#">
+		Back to {{ config('app.name')}}
+                </a>
+            </div>
+
             <div class="pr-0 flex justify-end">
 
                 <div class="flex relative inline-block float-right">
@@ -106,28 +112,25 @@
             <h2 id='section1' class="font-sans font-bold break-normal text-gray-700 px-2 pb-8 text-xl">My gists</h2>
 
             <!--Card-->
-            <div class="p-8 mt-6 lg:mt-0 leading-normal rounded shadow bg-white">
-		<ul>
-		  @foreach ($gists as $gist)
+            <div class="p-8 mt-6 lg:mt-0 leading-normal rounded shadow bg-white" data-cy="gists-list">
+		@foreach ($gists as $gist)
 	          <li>{{$gist->title}}</li>
-		  @endforeach
-		</ul>
-
-                <li>Using the CDN version of <a class="underline text-yellow-600" href="https://github.com/tailwindcss/custom-forms" target="_blank">Tailwind Custom Forms</a></li>
-                <li>This template uses jQuery for scrollspy</li>
+		@endforeach
             </div>
 
       <div class="mt-4">
 	      @foreach ($gists as $gist)	
 	      <div class="md:flex mb-6">
 		<div class="md:w-1/6">
-		    <label class="block text-gray-600 font-bold md:text-left mb-3 md:mb-0 pr-4" for="my-textarea">
+		    <label class="block text-gray-600 font-bold md:text-left mb-3 md:mb-0 pr-4 px-4 py-6" for="my-textarea">
 			{{ $gist->title }}
 		    </label>
 		</div>
+
 		<div class="md:w-5/6">
+		<p class="py-2 pl-4 pt-3  text-sm text-gray-600">{{ $gist->description }}</p>
 		    <p class="form-textarea block w-full focus:bg-white" id="gist-body"  rows="8">{{ $gist->body }}</p>
-		    <p class="py-2 text-sm text-gray-600">{{ $gist->description }}</p>
+		    
 		</div>
 	      </div>
 	      @endforeach
@@ -189,7 +192,7 @@
                         <div class="md:w-1/3"></div>
                         <div class="md:w-2/3">
                             <button class="shadow bg-yellow-700 hover:bg-yellow-500 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
-                                Save
+			Publish Gist
                             </button>
                         </div>
                     </div>

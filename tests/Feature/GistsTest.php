@@ -29,5 +29,11 @@ class GistsTest extends TestCase
  	$this->get('/gists')->assertSee($attributes['title']);
  	$this->get('/gists')->assertSee($attributes['description']);
     } 
+
+	/** @test */
+	public function gist_requires_title()
+	{
+	  $this->withoutExceptionHandling();
+	}
  
 }
