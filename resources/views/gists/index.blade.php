@@ -144,16 +144,16 @@
             <!--Card-->
             <div id='section2' class="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
 
-                <form>
+                <form data-cy="form">
 
                     <div class="md:flex mb-6">
                         <div class="md:w-1/3">
                             <label class="block text-gray-600 font-bold md:text-left mb-3 md:mb-0 pr-4" for="my-textfield">
-                                Text Field
+	Title
                             </label>
                         </div>
                         <div class="md:w-2/3">
-                            <input class="form-input block w-full focus:bg-white" id="my-textfield" type="text" value="">
+                            <input class="form-input block w-full focus:bg-white" id="my-textfield" type="text" value="" data-cy="title" placeholder="Gist title">
                             <p class="py-2 text-sm text-gray-600">add notes about populating the field</p>
                         </div>
                     </div>
@@ -161,15 +161,15 @@
                     <div class="md:flex mb-6">
                         <div class="md:w-1/3">
                             <label class="block text-gray-600 font-bold md:text-left mb-3 md:mb-0 pr-4" for="my-select">
-                                Drop down field
+			Difficulty level 
                             </label>
                         </div>
                         <div class="md:w-2/3">
                             <select name="" class="form-select block w-full focus:bg-white" id="my-select">
                                 <option value="Default">Default</option>
-                                <option value="A">A</option>
-                                <option value="B">B</option>
-                                <option value="C">C</option>
+                                <option value="A">Beginner</option>
+                                <option value="B">Elementary</option>
+                                <option value="C">Intermedient</option>
                             </select>
 
                             <p class="py-2 text-sm text-gray-600">add notes about populating the field</p>
@@ -178,12 +178,9 @@
 
                     <div class="md:flex mb-6">
                         <div class="md:w-1/3">
-                            <label class="block text-gray-600 font-bold md:text-left mb-3 md:mb-0 pr-4" for="my-textarea">
-                                Text Area
-                            </label>
                         </div>
                         <div class="md:w-2/3">
-                            <textarea class="form-textarea block w-full focus:bg-white" id="my-textarea" value="" rows="8"></textarea>
+                            <textarea class="form-textarea block w-full focus:bg-white" id="my-textarea" value="" rows="8" data-cy="body"></textarea>
                             <p class="py-2 text-sm text-gray-600">add notes about populating the field</p>
                         </div>
                     </div>

@@ -3,6 +3,7 @@
 /public/storage
 /storage/*.key
 /vendor
+cypress/integration/examples/
 .env
 .env.backup
 .phpunit.result.cache
