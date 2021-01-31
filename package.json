@@ -27,7 +27,7 @@
         "sass-loader": "8.*",
         "tailwindcss": "^2.0.2"
     },
-    "version": "0.0.6",
+    "version": "0.0.7",
     "dependencies": {
         "laravel-mix-tailwind": "^0.1.2"
     }
