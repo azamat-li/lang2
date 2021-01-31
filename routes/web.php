@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\PostsController;
+use App\Http\Controllers\CommentsController;
 
 
 
@@ -22,6 +23,7 @@ Route::get('/', function () {
 });
 
 Route::get('/posts', [PostsController::class, 'index'])->name('posts.index');
+Route::post('/posts/comments', [CommentsController::class, 'store']);
 Route::get('/posts/{post}',[PostsController::class, 'show'])->name('posts.show');
 Route::post('/posts', function () {
 	App\Models\Gist::create(request(['title', 'description', 'body', 'slug']));
