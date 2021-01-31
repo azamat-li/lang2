@@ -22,9 +22,9 @@ class GistFactory extends Factory
     public function definition()
     {
         return [
-	  'title' => $this->faker->name,
-	  'description' => $this->faker->sentence,
-	  'body' => $this->faker->paragraph,
+					'title' => $this->faker->name,
+					'description' => $this->faker->sentence,
+					'body' => $this->faker->paragraph,
           'slug' => $this->faker->slug
         ];
     }

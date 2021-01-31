@@ -147,12 +147,12 @@
             <!--Card-->
             <div id='section2' class="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
 
-                <form data-cy="form">
+                <form data-cy="form" >
 
                     <div class="md:flex mb-6">
                         <div class="md:w-1/3">
                             <label class="block text-gray-600 font-bold md:text-left mb-3 md:mb-0 pr-4" for="my-textfield">
-	Title
+				Title
                             </label>
                         </div>
                         <div class="md:w-2/3">
