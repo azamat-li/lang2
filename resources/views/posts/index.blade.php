@@ -59,8 +59,8 @@
 			<!--Title-->
 			<div class="font-sans">
 				<p class="text-base md:text-sm text-green-500 font-bold">&lt; <a href="#" class="text-base md:text-sm text-green-500 font-bold no-underline hover:underline">BACK TO BLOG</a></p>
-						<h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">{{ $post->title }}</h1>
-						<p class="text-sm md:text-base font-normal text-gray-600">{{ $post->created_at }} </p>
+						<h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">{{ $post->title ?? "No posts, I'm sorry" }}</h1>
+						<p class="text-sm md:text-base font-normal text-gray-600">{{ $post->created_at ?? ''}} </p>
 			</div>
 
 
@@ -133,10 +133,10 @@
 
 		<!--Author-->
 		<div class="flex w-full items-center font-sans px-4 py-12">
-			<img class="w-12 h-12 rounded-full mr-4 bg-indigo-400"  alt="Colortar of Author">
+			<div class="w-12 h-12 rounded-full mr-4 bg-indigo-400"  alt="Colortar of Author"></div>
 			<div class="flex-1 px-2">
-				<p class="text-base font-bold text-base md:text-xl leading-none mb-2">Jo Bloggerson</p>
-				<p class="text-gray-600 text-xs md:text-base">Minimal Blog Tailwind CSS template by <a class="text-green-500 no-underline hover:underline" href="https://www.tailwindtoolbox.com">TailwindToolbox.com</a></p>
+				<p class="text-base font-bold text-base md:text-xl leading-none mb-2">{{ $post->author ?? 'Post author'}}</p>
+				<p class="text-gray-600 text-xs md:text-base">{{ $post->description ?? 'Post description' }}<a class="text-green-500 no-underline hover:underline" href="https://www.tailwindtoolbox.com"></a></p>
 			</div>
 			<div class="justify-end">
 				<button class="bg-transparent border border-gray-500 hover:border-green-500 text-xs text-gray-500 hover:text-green-500 font-bold py-2 px-4 rounded-full">Read More</button>
