@@ -25,6 +25,7 @@ class CommentFactory extends Factory
 					'name' => $this->faker->name,
 					'message' => $this->faker->sentence,
 					'level' => $this->faker->paragraph,
+					'topic' => $this->faker->word,
           'slug' => $this->faker->slug,
 					'post_id' => 1
         ];

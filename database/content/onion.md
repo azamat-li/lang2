@@ -1,6 +1,9 @@
 История #1 - Лук - Soğan
 ======================
 
+## Description
+Риски торговли. Про честных и не очень.
+
 *       soğan/лук
 
 Kurnaz bir tüccar, Güney Denizlerindeki adalarda yaşayan yerlilerin bol miktarda altını olduğunu duyunca, bir gemi dolusu soğanla yola çıktı.

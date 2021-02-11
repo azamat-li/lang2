@@ -74,13 +74,14 @@ class CommentsController extends Controller
 		public function validateComment(): array
 	 	{ 
 				$validatedAttrs = request()->validate([
-					'name' => 'required',
-					'message' => 'required',
 					'id' => 'required',
 					'created_at' => '',
+					'name' => 'required',
+					'message' => 'required',
 					'level' => '',
+					'topic' => '',
 					'slug' => 'required',
-					'posts_id' => 'required'
+					'post_id' => 'required'
 				]);
  
         return $validatedAttrs;

@@ -4,8 +4,9 @@ context(' ', () => {
   })
 
   it('Contains page name', () => {
-	cy.contains('Lang2 blog') 
-     })
+	cy.contains('Blog') 
+	cy.contains('Lang2')
+  })
 	
 	it('Contains posts', () => {
 		cy.get('[data-cy=posttitle]')

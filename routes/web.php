@@ -18,9 +18,9 @@ use App\Http\Controllers\CommentsController;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', function () { return view('index'); });
+
+Route::get('/blogs-suggested', function () { return view('blogs-suggested'); });
 
 Route::get('/posts', [PostsController::class, 'index'])->name('posts.index');
 Route::post('/posts/comments', [CommentsController::class, 'store']);

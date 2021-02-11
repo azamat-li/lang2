@@ -5,7 +5,7 @@ namespace Tests\Feature;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use App\Models\Posts;
+use App\Models\Post;
 use App\Models\Comment;
 
 class PostsTest extends TestCase
@@ -14,26 +14,30 @@ class PostsTest extends TestCase
 
 
     /** @test */
-    public function a_user_can_see_a_post ()
+    public function a_user_can_see_posts_list ()
     {
 			$this->withoutExceptionHandling();
 
-			$post = Posts::factory()->create();
-			$this->get('/posts/' . $post->id )->assertSee($post['title']) ->assertSee($post['body']);
+			$post = Post::factory()->create();
+			$this->get('/posts' )->
+				 assertSee($post['title'])->
+				 assertSee($post['language'])->
+				 assertSee($post['level'])->
+				 assertSee($post['description']);
     } 
 
-		/** @test */
+    /** @test */
 		public function can_leave_a_comment()
 		{
 			$this->withoutExceptionHandling();
 
-			$post = Posts::factory()->create();
+			$post = Post::factory()->create();
 			$comment = [ 
 				'id' => $this->faker->numberBetween(1,62),
 				'name' => $this->faker->name,
 				'message' => $this->faker->sentence,
 				'level' => $this->faker->paragraph,
-				'posts_id' =>  $post->id,
+				'post_id' => $post->id,
 				'slug' => $this->faker->slug
 			];
 

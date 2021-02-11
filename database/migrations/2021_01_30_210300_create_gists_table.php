@@ -16,10 +16,10 @@ class CreateGistsTable extends Migration
         Schema::create('gists', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-	    $table->string('title');
-	    $table->text('description');
-	    $table->text('body');
-	    $table->string('slug');
+						$table->string('title');
+						$table->text('description');
+						$table->text('body');
+						$table->string('slug');
         });
     }
 

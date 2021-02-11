@@ -20,6 +20,10 @@ class CreatePostsTable extends Migration
 						$table->string('description');
 						$table->string('slug');
 						$table->text('body');
+						$table->string('credits');
+						$table->bigInteger('pluses');
+						$table->enum('level', ['Beginner', 'Elementary', 'Intermedient', 'Upper Intermedient']);
+						$table->enum('language', ['Turkish', 'Arabic', 'Bashkir', 'English']);
         });
     }
 
