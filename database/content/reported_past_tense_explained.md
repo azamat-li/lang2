@@ -1,6 +1,8 @@
 Косвенная речь прошедшего времени (-miş): Обяснения и примеры
 
-Because in Turkish, there is a distinct mood used particularly when gossiping: -m(I)ş (by grammatical terms, this suffix is of reported past tense)
+#### Описание
+Как рассказать о том, что сам не видел.
+
 Для передачи косвенной речи в Турецком языке используется постфикс -m(I)ş (постфикс косвенной прошедшей речи)
 
 -m(I)ş
@@ -304,3 +306,5 @@ Sor bakalım: Yemekleri *sevmiş* mi?
 | önce  | прежде |
 | *Sor* bakalım | задать *вопрос* |
 | --- | --- |
+
+	[Fluent in Turkish Course](https://fluentinturkish.com/grammar/mis-past-reported-past-tense)

@@ -1,6 +1,7 @@
 Союзы (Bağlaç)
 ======================
 
+#### Описание
 Союзы: это части речи, соединяющие простые предложения в составе сложных, например: "и", "или", "хотя", "а".
 
 Союзы используются для соединения предложений, или фраз. Часто применяются союзы *И* (Ve), *Потому что* (Çünkü), *Но* (Ama). 
@@ -12,25 +13,25 @@ De / Da должны писаться раздельно от слова. Все
 
 De / Da обычно значат *также*, *включая*.
 
-Ben da kazandım.
+Ben *da* kazandım.
 Я *также* победил.
 
-Meyve de yiyemiyorum.
+Meyve *de* yiyemiyorum.
 Фрукты *тоже* не ем.
 
-Burada sigara da içemezsin.
-Нельзя *также* курить.
+Burada sigara *da* içemezsin.
+Здесь нельзя *также* курить.
 
 Çocuk da yaparım, kariyer de.
 Родила ребёнка, также сделала карьеру.
 
 De / Da куда более распространены, чем Ve.
 
-Gitmişler de gelmişler.
-Ушли да уехали.
+Gitmişler *de* gelmişler.
+Ушли *да* уехали.
 
-Dinledim de beğenmedim.
-Послушал, да не понравилось.
+Dinledim *de* beğenmedim.
+Послушал, *да* не понравилось.
 
 При повторяющемся использовании Da / De означают *Оба*, *И*.
 
@@ -38,14 +39,11 @@ Dinledim de beğenmedim.
 Как сумку, так и линейку не забудь взять.
 
 #### Ve *И*
-Bu kızla bu çocuk
-https://fluentinturkish.com/grammar/conjunctions
-
 Bu kız ve bu çocuk.
 Эта девочка *и* этот ребёнок.
 
 Bu kızla bu çocuk.
-Эта девочка *и* этот ребёнок.
+Эта девочка, этот ребёнок.
  
 Последнее предпочтительнее в устной речи.
 
@@ -71,46 +69,44 @@ Bulur da fazlasını ister.
 
 Примеры:
 
-Oraya gittim ama sizi göremedim
+Oraya gittim *ama* sizi göremedim
 
-Oraya gittim fakat sizi göremedim
+Oraya gittim *fakat* sizi göremedim
 
-Oraya gittim ancak sizi göremedim
+Oraya gittim *ancak* sizi göremedim
 
-Oraya gittim lakin sizi göremedim
+Oraya gittim *lakin* sizi göremedim
 
 Я ходил туда, но вас не выдел.
 Я ходил туда, но не имел возможности вас видеть. (*более буквально*)
 
 Lakin and Fakat употребляются реже. Но более предпочтительны в письменной речи.
 
-When ama is at the end of sentence, it means though.
 В конце предложения *Ama* значит *Всё же*. 
 
 Пример:
 
-Bu kadarı da fazla ama!
-Этого, всё же, слишком много!
+Bu kadarı da fazla *ama*!
+Этого, *всё же*, слишком много!
 
-There is also another expression giving the same meaning of these four words. It is ‘ne var ki’. However, there is an extra in the meaning. See the example:
-Есть также похожее выражение со схожим значением - *Ne var ki*.
+Есть также похожее выражение со схожим значением - *Ne var ki*. Однако, есть различие в оттенке смысла. Пример ниже:
 
-Oraya gittim ne var ki sizi göremedim.
+Oraya gittim *ne var ki* sizi göremedim.
 Я ходил туда, *тем не менее* вас не видел.
 
 #### Madem, Madem ki *Видя*
 *Видя что*.  Первое *а* в Madem тянется при произношении. Оба (Madem, Madem ki) распространены и схожи по значению. 
 
-Madem ki bilmiyorsun, neden fikir belirtiyorsun.
+*Madem ki* bilmiyorsun, neden fikir belirtiyorsun.
 *Видя*, что не знаешь, зачем говоришь.
 
-#### Ne … ne … ne (*ни.. ни*)
+#### Ne … ne … ne (*ни… ни*)
 Очень распространено и полезно. При том, что очень просто в использовании. 
 
 Пример:
 
 *Ne* sever, *ne* nefret eder.
-Ни любит, ни питает ненависти.
+*Ни* любит, *ни* питает ненависти.
 
 Количество "ne" не ограничено:
 
@@ -119,27 +115,25 @@ Ne sever, ne söver, ne nefret eder.
 
 В длинном предложении с этим союзом, последнее "ne" обычно тянет за собой "de/da". (но не обязательно).
 
-Ne sever, ne söver, ne de nefret eder.
-Ни любит, ни проклинает, ни ненавидит.
+*Ne* sever, *ne* söver, *ne de* nefret eder.
+*Ни* любит, *ни* проклинает, *также ни* ненавидит.
 
-Ne ekmek almışsınız ne de su.
-Ни хлеба не купил, ни даже воды.
+Ne ekmek *almışsınız* ne de su.
+Ни хлеба *не купил*, ни даже воды.
 
-Ne okumak beğenirler, ne de kitap.
-Ни чтения, также ни книг не любит.
+Ne okumak *beğenirler*, ne de kitap.
+Ни чтения, также ни книг *не любит*.
 
 
 #### Gerek … Gerek(se)
+Шаблон этого союза очень похож на *Ne.. Ne*. В некоторых случаях имеет форму Gerekse (Gerek + ise). Постфикс -ise заимствонан с Арабского, 'إذا' значит 'если'.Примерный перевод - *Либо.. либо*. *Gerek* происходит от слова *Gerekmek*, значащего *Требовать*.  
 
-Шаблон этого союза очень похож на *Ne.. Ne*. В некоторых случаях имеет форму Gerekse (Gerek + ise). Примерный перевод - *Либо.. либо*. *Gerek* происходит от слова *Gerekmek*, значащего *Требовать*.  
+*Gerek* emekli *gerekse* çalışan kişilere iş imkanı.
+Виды на работу *для* незанятых, *либо для* служащих.
 
-*Gerek* emekli *gerekse* çalışan kişilere iş imkanı
-Виды на работу для безработных, либо служащих.
-
-Чаще встречается в письменной речи, но в устной.
+Чаще встречается в письменной речи, не в устной.
 
 #### Hem … Hem (de)
-
 Hem comes from the Persian language. It gives a very similar meaning of De/Da. Unlike the conjunction of Gerek, this type of conjunctions is very commonly used in both daily speech and literary language. It is translated as both … and …
 
 Bu tür bağlaçlar hem günlük konuşmalarda hem de edebi dilde bolca kullanılmaktadır.
@@ -282,3 +276,7 @@ Should I buy this, or that?
 
 Yap şunu! Yoksa ben yapacağım.
 Do it! Or I am doing to do it.
+
+#### Переводы слов
+| beğen |  |
+| --- | --- |
